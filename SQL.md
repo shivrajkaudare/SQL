@@ -43,4 +43,7 @@
    (102,"Deepak",13); <br>
 
 8) to Display all Records in table : <br>
-   eg.- SELECT \* FROM Student;
+eg.- SELECT \* FROM Student;
+<hr>
+
+<h3>Data Types</h3>
