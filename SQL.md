@@ -1,6 +1,6 @@
 <h1>SQL- Sructure Query Language</h1> <br>
 
-<h2>Queries in SQL</h2> <br>
+<h2>Queries in SQL :</h2> <br>
 
 1. Create DataBase : <br>
    syntax - CREATE DATABASE Db_name; <br>
@@ -20,7 +20,7 @@
    SHOW Databases;
 
 <hr>
- <h2>Table Queries</h2>
+ <h2>Table Queries :</h2>
 
 5. SHOW Tables; - shows all tables exists in database. <br>
 
@@ -46,7 +46,7 @@
 eg.- SELECT \* FROM Student;
 <hr>
 
-<h3>Data Types</h3> <br>
+<h3>Data Types :</h3> <br>
 1) CHAR - String (0-255) <br>
 2) VARCHAR -String (0-255) <br>
 3) BLOB - String (0-65535) <br>
