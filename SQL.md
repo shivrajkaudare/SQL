@@ -22,23 +22,25 @@
 <hr>
  <h2>Table Queries</h2>
 
--SHOW Tables; - shows all tables exists in database. <br> 5. Create Table : <br>
-syntax- CREATE TABLE table_name(
-column_name1 datatype,
-column_name2 datatype
-); <br><br>
-eg.- CREATE TABLE Student(
-rollNo INT,
-name VARCHAR(20),
-age INT
-);
-<br>
+5. SHOW Tables; - shows all tables exists in database. <br>
 
-6. Insert Values in Table : <br>
+6) Create Table : <br>
+   syntax- CREATE TABLE table_name(
+   column_name1 datatype,
+   column_name2 datatype
+   ); <br><br>
+   eg.- CREATE TABLE Student(
+   rollNo INT,
+   name VARCHAR(20),
+   age INT
+   );
+   <br>
+
+7) Insert Values in Table : <br>
    eg.- INSERT INTO Student
    VALUES
    (101,"Shivraj",12),
    (102,"Deepak",13); <br>
 
-7. to Display all Records in table : <br>
+8) to Display all Records in table : <br>
    eg.- SELECT \* FROM Student;
