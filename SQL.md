@@ -5,9 +5,9 @@
 syntax-  CREATE TABLE table_name(
     column_name1 datatype,
     column_name2 datatype
-);  <br>
+);  <br><br>
 eg.-  CREATE TABLE College(
     rollNo INT,
     name VARCHAR(20),
     age INT
-);
+); <hr>
