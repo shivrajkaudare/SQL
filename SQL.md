@@ -5,7 +5,7 @@
 1. Create DataBase : <br>
    syntax - CREATE DATABASE Db_name; <br>
 
-eg.- CRETAE DATABASE College; <br>
+   eg.- CRETAE DATABASE College; <br>
 
 2. Delete DataBase : <br>
    syntax - DROP DATABASE Db_name; <br>
@@ -16,7 +16,7 @@ eg.- CRETAE DATABASE College; <br>
    syntax - USE Db_name;
    eg.- USE College; <hr>
 
-4. Create DataBase : <br>
+4. Create Table : <br>
    syntax- CREATE TABLE table_name(
    column_name1 datatype,
    column_name2 datatype
