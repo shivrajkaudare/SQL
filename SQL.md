@@ -68,4 +68,11 @@ eg.- SELECT \* FROM Student;
     4) CHECK - it can limit the value allowed in a column. <br>
 <hr>
 <h2>Key's :</h2>keys are the special type of column in table. <br>
-<h3>1) Primary Key :</h3>
+<h3>1) Primary Key :</h3> <br>
+    - primary keys is column (or set of columns) in a table that uniquely identifies each row. <br>
+    - there is only one primary key and it should be NOT NULL. <br>
+    - eg.  <br>
+         CREATE TABLE Stud(
+            id INT PRIMARY KEY 
+            NOT NULL 
+         );
