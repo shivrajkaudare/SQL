@@ -58,3 +58,6 @@ eg.- SELECT \* FROM Student;
 9) BOOLEAN - boolean values 0 or 1. <br>
 10) DATE - date in format of YYYY-MM-DD ranging from 1000-01-01 to 9999-12-31
 11)YEAR - Year in 4 digits format ranging from 1901 to 2155.
+<hr>
+
+<h2> Constraints :</h2> rules for data in table
