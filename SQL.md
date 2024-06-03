@@ -47,17 +47,25 @@ eg.- SELECT \* FROM Student;
 <hr>
 
 <h3>Data Types :</h3> <br>
-1) CHAR - String (0-255) <br>
-2) VARCHAR -String (0-255) <br>
-3) BLOB - String (0-65535) <br>
-4) INT - integer (-2,147,483,648 to 2,147,483,647) <br>
-5) TINYINT - integer (-128 to 127)<br>
-6) BIGINT - integer (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,808 ) <br>
-7) BIT - Can Stores X-bit Values , X can range from 1 to 54. <br>
-8) FLOAT - Decimal number with 24 to 53 digits.<br>
-9) BOOLEAN - boolean values 0 or 1. <br>
-10) DATE - date in format of YYYY-MM-DD ranging from 1000-01-01 to 9999-12-31
-11)YEAR - Year in 4 digits format ranging from 1901 to 2155.
+    1) CHAR - String (0-255) <br>
+    2) VARCHAR -String (0-255) <br>
+    3) BLOB - String (0-65535) <br>
+    4) INT - integer (-2,147,483,648 to 2,147,483,647) <br>
+    5) TINYINT - integer (-128 to 127)<br>
+    6) BIGINT - integer (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,808 ) <br>
+    7) BIT - Can Stores X-bit Values , X can range from 1 to 54. <br>
+    8) FLOAT - Decimal number with 24 to 53 digits.<br>
+    9) BOOLEAN - boolean values 0 or 1. <br>
+    10) DATE - date in format of YYYY-MM-DD ranging from 1000-01-01 to 9999-12-31
+    11)YEAR - Year in 4 digits format ranging from 1901 to 2155.
 <hr>
 
-<h2> Constraints :</h2> rules for data in table
+<h2>Constraints :</h2> rules for data in table
+<br>
+    1) NOT NULL - columns can not have a null value. <br>
+    2) UNIQUE - all values in columns are different.  <br> 
+    3) DEFAULT - set the default value of column.  <br>
+    4) CHECK - it can limit the value allowed in a column. <br>
+<hr>
+<h2>Key's :</h2>keys are the special type of column in table. <br>
+<h3>1) Primary Key :</h3>
