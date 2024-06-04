@@ -1,0 +1,21 @@
+/* 
+ Q. Cretae Database College, Create table name Teacher(id,name,subject,salary) and inser 4 records in it.
+*/
+
+CREATE DATABASE College;
+USE College;
+
+CREATE TABLE Teacher(
+ id INT PRIMARY KEY NOT NULL,
+ name VARCHAR(20),
+ subject VARCHAR(10),
+ salary INT
+);
+
+INSERT INTO Teacher 
+(id, name, subject,salary)
+VALUES 
+(23, "ajay", "math", 50000),
+(47, "bharat", "english", 60000),
+(18, "chetan", "chemistry", 45000),
+(9, "divya", "physics", 75000);
