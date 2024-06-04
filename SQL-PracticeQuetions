@@ -2,7 +2,7 @@
  Q. Cretae Database College, Create table name Teacher(id,name,subject,salary) and inser 4 records in it.
 */
 
-CREATE DATABASE College;
+CREATE DATABASE IF NOT EXISTS College;
 USE College;
 
 CREATE TABLE Teacher(
@@ -19,3 +19,24 @@ VALUES
 (47, "bharat", "english", 60000),
 (18, "chetan", "chemistry", 45000),
 (9, "divya", "physics", 75000);
+
+/* 1) Select Teachers whose salary is more than 55k*/
+
+  SELECT salary FROM Teacher
+  WHERE salary > 55000;
+
+/* 2) Rename the salary column to ctc*/
+  ALTER TABLE Teacher
+  CHANGE COLuMN salary ctc INT;
+
+  /* 3) Update salary of all teachers by giving them an increment of 25% */
+  UPDATE Teacher
+  SET ctc = ctc + (0.25) * ctc;
+
+  /* 3) Add a new column for teachers called city. the default city should be "Gurgaon"*/
+  ALTER TABLE teacher
+  ADD COLUMN City VARCHAR(20) DEFAULT "Gurgaon";
+
+  /* 4) Delete the salary column for teacher table.*/
+   ALTER TABLE Teacher
+   DROP COLUMN Techsalary;
