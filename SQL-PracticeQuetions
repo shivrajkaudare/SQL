@@ -1,5 +1,9 @@
 /* 
- Q. Cretae Database College, Create table name Teacher(id,name,subject,salary) and inser 4 records in it.
+ Q.1 Cretae Database College, Create table name Teacher(id,name,subject,salary) and inser 4 records in it.
+      1) Select Teachers whose salary is more than 55k.
+      2) Rename the salary column to ctc.
+      3) Update salary of all teachers by giving them an increment of 25%.
+      4) Delete the salary column for teacher table.
 */
 
 CREATE DATABASE IF NOT EXISTS College;
