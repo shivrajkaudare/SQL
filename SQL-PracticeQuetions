@@ -47,8 +47,7 @@ VALUES
 
 
 
-/*
-  Q.2 Create table to store student info (roll_no, name, city, marks).
+/* Q.2 Create table to store student info (roll_no, name, city, marks).
       insert following data in the table : 
               110,"adam","Delhi",76
               108,"bob","Mumbai",65
@@ -61,8 +60,7 @@ VALUES
       5) Add a new column grade, assign grade such that :
                   marks > 80, grade = 0
                   marks 70-80, grade = A
-                  marks 60-70, grade = B
-*/
+                  marks 60-70, grade = B */
 
    CREATE TABLE student(
    rollno INT PRIMARY KEY NOT NULL,
