@@ -95,7 +95,9 @@ VALUES
 
 
 /* 4) find the average of the class. */
-
+    
+   SELECT avg(marks)
+   FROM students;
 
 /* 5) Add a new column grade, assign grade such that :
                   marks > 80, grade = 0
