@@ -54,11 +54,18 @@ VALUES
               108,"bob","Mumbai",65
               124,"casey","pune",94
               112,"duke","pune",80
-
+      1) Select all students who scored 75+.
+      2) Find names of all cities where students are from.
+      3) find the maximum marks of students from each city.
+      4) find the average of the class.
+      5) Add a new column grade, assign grade such that :
+                  marks > 80, grade = 0
+                  marks 70-80, grade = A
+                  marks 60-70, grade = B
 */
 
    CREATE TABLE student(
-   id INT PRIMARY KEY NOT NULL,
+   rollno INT PRIMARY KEY NOT NULL,
    name VARCHAR(30),
    city VARCHAR(30),
    marks INT
@@ -71,3 +78,7 @@ VALUES
   (108,"bob","Mumbai",65),
   (124,"casey","pune",94),
   (112,"duke","pune",80);
+
+ /*1) Select all students who scored 75+.  */
+    SELECT * FROM student
+    WHERE marks >= 75;
