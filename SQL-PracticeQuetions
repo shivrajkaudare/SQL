@@ -44,3 +44,30 @@ VALUES
   /* 4) Delete the salary column for teacher table.*/
    ALTER TABLE Teacher
    DROP COLUMN Techsalary;
+
+
+
+/*
+  Q.2 Create table to store student info (roll_no, name, city, marks).
+      insert following data in the table : 
+              110,"adam","Delhi",76
+              108,"bob","Mumbai",65
+              124,"casey","pune",94
+              112,"duke","pune",80
+
+*/
+
+   CREATE TABLE student(
+   id INT PRIMARY KEY NOT NULL,
+   name VARCHAR(30),
+   city VARCHAR(30),
+   marks INT
+   );
+
+  INSERT INTO student
+  (id, name, city, marks)
+  VALUES 
+  (110,"adam","Delhi",76),
+  (108,"bob","Mumbai",65),
+  (124,"casey","pune",94),
+  (112,"duke","pune",80);
