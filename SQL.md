@@ -77,5 +77,5 @@ eg.- SELECT \* FROM Student;
             NOT NULL 
          );
 <h3>2) Foreign Key :</h3>
-    - Foreign key is column that passes as reference key to the another table.
+    - Foreign key is column that passes as reference key to the another table.<br>
     - primary key of one table is passed as refference key to another table 
