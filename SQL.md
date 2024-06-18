@@ -78,4 +78,9 @@ eg.- SELECT \* FROM Student;
          );
 <h3>2) Foreign Key :</h3>
     - Foreign key is column that passes as reference key to the another table.<br>
-    - primary key of one table is passed as refference key to another table 
+    - primary key of one table is passed as refference key to another table <br>
+    -eg <br>
+    CREATE TABLE temp(
+      cust_id INT,
+      FOREIGN KEY (cust_id) references customer(id)
+    );
