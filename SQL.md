@@ -84,3 +84,10 @@ eg.- SELECT \* FROM Student;
       cust_id INT,
       FOREIGN KEY (cust_id) references customer(id)
     );
+    <br>
+    <h2> Clauses :</h2><br>
+    <h3>1) WHERE Clause :</h3><br>
+     - to define some condition. <br>
+     - eg. <br>
+        SELECT * FROM Student
+        WHERE roll_no = 2;
