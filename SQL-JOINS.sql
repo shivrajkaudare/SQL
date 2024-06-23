@@ -40,3 +40,11 @@ SELECT *
 FROM customer AS c
 INNER JOIN cust_details AS cd
 ON c.id = cd.id;
+
+
+/*************** RIGHT JOIN *************/
+
+SELECT c.name, cd.accountno
+FROM customer AS c
+RIGHT JOIN cust_details AS cd
+ON c.id = cd.id;
