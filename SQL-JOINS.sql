@@ -34,7 +34,7 @@ INNER JOIN Account_details
 ON customer.id = Account_details.id;
 
 
-/*************** LEFT JOIN *************/
+/*************** LEFT JOIN / LEFT OUTER JOIN *************/
 
 SELECT *
 FROM customer AS c
@@ -42,9 +42,16 @@ INNER JOIN cust_details AS cd
 ON c.id = cd.id;
 
 
-/*************** RIGHT JOIN *************/
+/*************** RIGHT JOIN / RIGHT OUTER JOIN  *************/
 
 SELECT c.name, cd.accountno
+FROM customer AS c
+RIGHT JOIN cust_details AS cd
+ON c.id = cd.id;
+
+
+/*************** FULL JOIN / FULL OUTER JOIN *************/
+SELECT *
 FROM customer AS c
 RIGHT JOIN cust_details AS cd
 ON c.id = cd.id;
