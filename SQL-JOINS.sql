@@ -26,7 +26,8 @@ VALUES (101, 234543, 45678),
 (103, 09876,123456789);
 
 
-/*  INNER JOIN */
+/*************  INNER JOIN ***************/
+
 SELECT name, email, accountno, accountBalance
 FROM customer
 INNER JOIN cust_details
