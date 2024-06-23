@@ -36,7 +36,7 @@ ON customer.id = Account_details.id;
 
 /*************** LEFT JOIN *************/
 
-SELECT name, accountno, accountBalnace
-FROM customer
-LEFT JOIN Account_details
-ON customer.id = Account_details.id;
+SELECT *
+FROM customer AS c
+INNER JOIN cust_details AS cd
+ON c.id = cd.id;
