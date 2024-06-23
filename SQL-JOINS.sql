@@ -13,13 +13,13 @@ VALUES (101, "Shivraj", "shiv@gmail.com", 24),
 (102, "raj", "shivraj@gmail.com", 22),
 (103, "Shiv", "shivk@gmail.com", 23);
 
-CREATE TABLE cust_details(
+CREATE TABLE Account_details(
  id INT PRIMARY KEY NOT NULL,
  accountno INT UNIQUE NOT NULL,
  accountBalance INT
 );
 
-INSERT INTO cust_details 
+INSERT INTO Account_details 
 (id, accountno, accountBalance)
 VALUES (101, 234543, 45678),
 (102, 9876765, 56789),
@@ -28,7 +28,15 @@ VALUES (101, 234543, 45678),
 
 /*************  INNER JOIN ***************/
 
-SELECT name, email, accountno, accountBalance
+SELECT name, accountno, accountBalance
 FROM customer
-INNER JOIN cust_details
-ON customer.id = cust_details.id;
+INNER JOIN Account_details
+ON customer.id = Account_details.id;
+
+
+/*************** LEFT JOIN *************/
+
+SELECT name, accountno, accountBalnace
+FROM customer
+LEFT JOIN Account_details
+ON customer.id = Account_details.id;
