@@ -89,17 +89,31 @@ eg.- SELECT \* FROM Student;
     <h3>1) WHERE Clause :</h3><br>
      - to define some condition. <br>
      - eg. <br>
-        SELECT * FROM Student
-        WHERE roll_no = 2;<br>
+            SELECT * FROM Student
+            WHERE roll_no = 2;<br>
     <h3>2)LIMIT Clause :</h3> <br>
      - sets an upper limit on tuples or rows to be returned <br>
      - syntax : <br>
-         SELECT col1, col2 FROM table_name
-         LIMIT number; <br>
+            SELECT col1, col2 FROM table_name
+            LIMIT number; <br>
     <h3>3) ORDER BY Clause :</h3> <br>
      -  to sort in acending order(ASC) or decending order(DSC).<br>
      - by default it Order the elemennt in acending order. <br>
+     - eg. <br>
+            SELECT * FROM table_name
+            ORDER BY age;
     <h3>4) GROUP BY Clause :</h3> <br>
      - It collects data from  multiple records and group the result by one or more column.<BR>
      - Group the rows that have same value.
+     - eg.<br>
+            SELECT count(id)
+            FROM student 
+            GROUP BY age;
     <h3>4) HAVING Clause :</h3> <br>
+    - it is similar to WHERE Clause i.e it applies some condtions on rows.
+    - but is used ehen we want to apply contion after grouping.
+    -syntax: <br>
+            SELECT col1, col2
+            FROM table_name
+            GROUP BY col_name
+            HAVING condition;
