@@ -80,40 +80,40 @@ eg.- SELECT \* FROM Student;
     - Foreign key is column that passes as reference key to the another table.<br>
     - primary key of one table is passed as refference key to another table <br>
     -eg <br>
-    CREATE TABLE temp(
-      cust_id INT,
-      FOREIGN KEY (cust_id) references customer(id)
+    CREATE TABLE temp(                                                    <br> 
+      cust_id INT,                                                        <br> 
+      FOREIGN KEY (cust_id) references customer(id)                       <br> 
     );
     <br>
     <h2> Clauses :</h2><br>
     <h3>1) WHERE Clause :</h3><br>
      - to define some condition. <br>
      - eg. <br>
-            SELECT * FROM Student
+            SELECT * FROM Student           <br> 
             WHERE roll_no = 2;<br>
     <h3>2)LIMIT Clause :</h3> <br>
      - sets an upper limit on tuples or rows to be returned <br>
-     - syntax : <br>
-            SELECT col1, col2 FROM table_name
+     - Syntax : <br>
+            SELECT col1, col2 FROM table_name      <br> 
             LIMIT number; <br>
     <h3>3) ORDER BY Clause :</h3> <br>
      -  to sort in acending order(ASC) or decending order(DSC).<br>
      - by default it Order the elemennt in acending order. <br>
      - eg. <br>
-            SELECT * FROM table_name
-            ORDER BY age;
+            SELECT * FROM table_name              <br> 
+            ORDER BY age;                        <br> 
     <h3>4) GROUP BY Clause :</h3> <br>
      - It collects data from  multiple records and group the result by one or more column.<BR>
      - Group the rows that have same value.
      - eg.<br>
-            SELECT count(id)
-            FROM student 
-            GROUP BY age;
+            SELECT count(id)             <br> 
+            FROM student                 <br> 
+            GROUP BY age;                 <br> 
     <h3>4) HAVING Clause :</h3> <br>
     - it is similar to WHERE Clause i.e it applies some condtions on rows.
     - but is used ehen we want to apply contion after grouping.
-    -syntax: <br>
-            SELECT col1, col2
-            FROM table_name
-            GROUP BY col_name
-            HAVING condition;
+    -Syntax: <br>
+            SELECT col1, col2                 <br> 
+            FROM table_name                   <br> 
+            GROUP BY col_name                  <br> 
+            HAVING condition;                   <br>
