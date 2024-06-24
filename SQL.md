@@ -100,4 +100,4 @@ eg.- SELECT \* FROM Student;
 
     <h3>3) ORDER BY Clause :</h3> <br>
      -  to sort in acending order(ASC) or decending order(DSC).<br>
-     - by default it Order the elemennt in acending order. v
+     - by default it Order the elemennt in acending order. <br>
