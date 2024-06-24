@@ -103,15 +103,15 @@ eg.- SELECT \* FROM Student;
             SELECT * FROM table_name              <br> 
             ORDER BY age;                        <br> 
     <h3>4) GROUP BY Clause :</h3> <br>
-     - It collects data from  multiple records and group the result by one or more column.<BR>
-     - Group the rows that have same value.
+     - It collects data from  multiple records and group the result by one or more column.          <br> 
+     - Group the rows that have same value.                                                          <br> 
      - eg.<br>
             SELECT count(id)             <br> 
             FROM student                 <br> 
             GROUP BY age;                 <br> 
     <h3>4) HAVING Clause :</h3> <br>
-    - it is similar to WHERE Clause i.e it applies some condtions on rows.
-    - but is used ehen we want to apply contion after grouping.
+    - it is similar to WHERE Clause i.e it applies some condtions on rows.                             <br> 
+    - but is used ehen we want to apply contion after grouping.                                         <br> 
     -Syntax: <br>
             SELECT col1, col2                 <br> 
             FROM table_name                   <br> 
