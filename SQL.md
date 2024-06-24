@@ -91,13 +91,15 @@ eg.- SELECT \* FROM Student;
      - eg. <br>
         SELECT * FROM Student
         WHERE roll_no = 2;<br>
-
     <h3>2)LIMIT Clause :</h3> <br>
      - sets an upper limit on tuples or rows to be returned <br>
      - syntax : <br>
          SELECT col1, col2 FROM table_name
          LIMIT number; <br>
-
     <h3>3) ORDER BY Clause :</h3> <br>
      -  to sort in acending order(ASC) or decending order(DSC).<br>
      - by default it Order the elemennt in acending order. <br>
+    <h3>4) GROUP BY Clause :</h3> <br>
+     - It collects data from  multiple records and group the result by one or more column.<BR>
+     - Group the rows that have same value.
+    <h3>4) HAVING Clause :</h3> <br>
