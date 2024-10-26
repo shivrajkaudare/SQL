@@ -81,3 +81,17 @@ CREATE TABLE courses(
     teacher_id INT,
     FOREIGN KEY(teacher_id) REFERENCES teachers(teacher_id)
 ;)
+
+
+// Self-Referencing Reltionship :
+- a table has foreign key that references its primary key.
+
+Ex.
+in a table employee with a column manager_id referencing the same tables employee_id.
+
+CREATE TABLE employees(
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(50),
+    manager_id INT,
+    FOREIGN KEY(manager_id) REFERENCES employees(employee_id)
+);
