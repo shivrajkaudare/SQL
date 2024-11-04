@@ -1,5 +1,5 @@
 // 1) One to one Relationship : 
-- Primary key of one object passed as foreign key to primary key of another table.
+// - Primary key of one object passed as foreign key to primary key of another table.
 
  Ex. here Users tables primary key is passed as foreign key to the primary key of user_profile table.
 
@@ -19,7 +19,7 @@
 
 
 //2) One to Many Relationship :
-- Each Reacord in Table-A can be associated with multiple records in a table-B, But each record in Table-B can be associated with only one record in Table-A.
+// - Each Reacord in Table-A can be associated with multiple records in a table-B, But each record in Table-B can be associated with only one record in Table-A.
 
 EX. in table department and employee, where each department can have multiple employee, but each employee belong to the one department.
 
@@ -39,7 +39,7 @@ CREATE TABLE employee(
 
 //3) Many to Many Relationship :
 
-- Each Record in a Table-B can be associated with multile record in table-B and vice versa.
+// - Each Record in a Table-B can be associated with multile record in table-B and vice versa.
 
 Ex. table student and courses, where each student can enroll in multile courses, and each courses can have multiple students.
 
@@ -64,7 +64,7 @@ CREATE TABLE Student_Courses(
 
 
 // 4) Many to One Relationship :
-- multile record in table B can be associated with one record in table A.
+// - multile record in table B can be associated with one record in table A.
 
 Ex. 
 in table teachers and courses , may courses can be taught by single teacher.
