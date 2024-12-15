@@ -55,3 +55,29 @@ SELECT *
 FROM customer AS c
 RIGHT JOIN cust_details AS cd
 ON c.id = cd.id;
+
+/********************** SELF JOIN *******************/
+SELECT * FROM cutomer
+FROM customer As t1
+JOIN customer As t2
+ON t1.col_name = t2.col_name;
+
+/********************** UNION *******************/
+/* - UNION is used to combine result of two or more select statements without returning duplicate rows and keeping unique records. 
+   - to use a UION caluse each select statement must have- 
+                                                          - the same number of columns and expressions.
+                                                          - the same data type.
+                                                          - have them in same order.
+*/
+/* Syntax - */
+SELECT coulumn_name FROM tableA
+UNION
+SELECT coulumn_name FROM tableB
+
+/*Example */
+SELECT Cust_name, Cust_ammount from Customer1
+UNION cust_name, Cust_ammount from Custmer2;
+
+
+
+
