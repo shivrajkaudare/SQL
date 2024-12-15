@@ -62,7 +62,7 @@ FROM customer As t1
 JOIN customer As t2
 ON t1.col_name = t2.col_name;
 
-/********************** UNION *******************/
+/********************** UNION ***************************/
 /* - UNION is used to combine result of two or more select statements without returning duplicate rows and keeping unique records. 
    - to use a UION caluse each select statement must have- 
                                                           - the same number of columns and expressions.
@@ -78,6 +78,12 @@ SELECT coulumn_name FROM tableB
 SELECT Cust_name, Cust_ammount from Customer1
 UNION cust_name, Cust_ammount from Custmer2;
 
+/********************** UNION ALL***************************/
+/* - In UNION ALL everything is same as UNION, But combines two or more table and keeps all Records including duplicates.
+*/
+SELECT column_name FROM table1
+UNION ALL
+SELECT column_name FROM table2
 
 
 
